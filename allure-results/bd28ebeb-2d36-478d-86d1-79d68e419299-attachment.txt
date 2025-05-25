@@ -1,0 +1,19 @@
+Attempting to add: Sauce Labs Fleece Jacket
+Attempting to add: Sauce Labs Backpack
+Clicked Add to Cart on top two products
+Expected: [ 'Sauce Labs Fleece Jacket', 'Sauce Labs Backpack' ]
+Actual: [ 'Sauce Labs Fleece Jacket', 'Sauce Labs Backpack' ]
+UI Product: { productName: 'Sauce Labs Fleece Jacket', productCost: 49.99 }
+Backend Product: { productName: 'Sauce Labs Fleece Jacket', productCost: 49.99 }
+UI Product: { productName: 'Sauce Labs Backpack', productCost: 29.99 }
+Backend Product: { productName: 'Sauce Labs Backpack', productCost: 29.99 }
+[
+  '$86.38',
+  '86.38',
+  index: 7,
+  input: 'Total: $86.38',
+  groups: undefined
+]
+$86.38
+86.38
+Expected Total: $86.38000000000001, Displayed Total: $86.38

@@ -1,0 +1,15 @@
+
+[
+    {
+        "productName": "Sauce Labs Backpack",
+        "productCost": 29.99
+    },
+    {
+        "productName": "Sauce Labs Fleece Jacket",
+        "productCost": 49.99
+    },
+    {
+        "productName": "Sauce Labs Bolt T-Shirt",
+        "productCost": 15.99
+    }
+]

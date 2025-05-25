@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3292","Complete checkout and verify total","","Sun May 25 02:35:16 EDT 2025","passed","Sun May 25 02:35:19 EDT 2025","","checkout.test.js","",""

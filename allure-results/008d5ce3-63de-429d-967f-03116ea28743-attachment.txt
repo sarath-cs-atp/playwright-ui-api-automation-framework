@@ -1,0 +1,5 @@
+Attempting to add: Sauce Labs Fleece Jacket
+Attempting to add: Sauce Labs Backpack
+Clicked Add to Cart on top two products
+Expected: [ 'Sauce Labs Fleece Jacket', 'Sauce Labs Backpack' ]
+Actual: [ 'Sauce Labs Fleece Jacket', 'Sauce Labs Backpack' ]
