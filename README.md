@@ -101,6 +101,8 @@ The framework integrates Allure reporting for detailed test execution reports in
 - Test execution status
 - Step-level logs
 - Failure analysis
+
+## Allure Reports
     npx allure generate allure-results --clean -o allure-report
     npx allure open allure-report
 
