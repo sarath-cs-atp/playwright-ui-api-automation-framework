@@ -55,13 +55,12 @@ The framework follows the Page Object Model (POM) design pattern and supports UI
 
 ## Features Implemented
 
-### Core Tasks
-- Login using valid credentials
-- Filter and sort products by price (High to Low)
-- Select top 2 products and add to cart
-- Validate cart contains selected items
-- Proceed to checkout with test data
-- Validate checkout total against simulated backend data
+### Automated Test Scenarios
+- User authentication workflow validation
+- Product filtering and sorting verification
+- Add to cart and cart validation
+- Checkout process validation
+- Order total and data consistency checks
 
 ### Data Validation Strategy
 - Test data is managed using structured JSON files
