@@ -101,8 +101,8 @@ The framework integrates Allure reporting for detailed test execution reports in
 - Test execution status
 - Step-level logs
 - Failure analysis
-- npx allure generate allure-results --clean -o allure-report
-- npx allure open allure-report
+    npx allure generate allure-results --clean -o allure-report
+    npx allure open allure-report
 
 ## Unit Testing with Jest
 
