@@ -1,20 +1,26 @@
-# Playwright Automation Challenge – SauceDemo E2E Testing
+# End-to-End Test Automation Framework using Playwright (JavaScript)
 
-This project is developed as part of the Automation Technical Challenge and showcases an end-to-end (E2E) automation suite using Playwright with JavaScript. The target demo website is https://www.saucedemo.com/.
+This is an end-to-end (E2E) test automation framework built using Playwright with JavaScript.  
+It is designed to validate UI workflows and data integrity using a scalable and maintainable architecture.
 
-It covers:
-- UI testing
-- API/data validation
+The framework follows the Page Object Model (POM) design pattern and supports UI automation, data validation, and unit testing.
+
+## Framework Capabilities
+
+- End-to-end UI automation testing
+- Data validation between UI and external dataset
 - Page Object Model (POM) architecture
+- Reusable utilities and test helpers
+- Unit testing for core utility functions
+- HTML reporting with Allure
 
-All mandatory and 2 bonus tasks have been completed:
-- Login
-- Product Filtering
-- Add to Cart
-- Checkout
-- API/Data Validation
-- Allure test reports
-- Jest unit testing
+## Automated Scenarios
+
+- User authentication flow
+- Product filtering and sorting validation
+- Add to cart workflow validation
+- Checkout process verification
+- Cart and pricing validation
 
 ## Project Structure
 
@@ -57,9 +63,10 @@ All mandatory and 2 bonus tasks have been completed:
 - Proceed to checkout with test data
 - Validate checkout total against simulated backend data
 
-### API/Data Validation
-- Simulated backend data via productData.json
-- Compared UI cart total with backend prices
+### Data Validation Strategy
+- Test data is managed using structured JSON files
+- UI values are validated against external test datasets
+- Ensures consistency between UI rendering and expected data
 
 ### CLI and Configuration
 - Support for headless/headful modes via playwright.config.js
@@ -75,7 +82,7 @@ All mandatory and 2 bonus tasks have been completed:
     cd automation-challenge-playwright-cs
     npm install
 
-## How to Run
+## Execution Guide
 
 ### Run All Playwright Tests
 
@@ -89,10 +96,14 @@ All mandatory and 2 bonus tasks have been completed:
 
     npx playwright test tests/login.test.js
 
-## Allure Report
+## Reporting
 
-    npx allure generate allure-results --clean -o allure-report
-    npx allure open allure-report
+The framework integrates Allure reporting for detailed test execution reports including:
+- Test execution status
+- Step-level logs
+- Failure analysis
+- npx allure generate allure-results --clean -o allure-report
+- npx allure open allure-report
 
 ## Unit Testing with Jest
 
@@ -104,3 +115,10 @@ All mandatory and 2 bonus tasks have been completed:
 - Playwright test files are separated from Jest unit tests.
 - calculateTotal.js is a sample utility added to demonstrate Jest unit testing.
 - Configurations and environment variables can be managed through .env and playwright.config.js
+  
+## Design Principles
+
+- Modular architecture using Page Object Model (POM)
+- Separation of test logic and page interactions
+- Reusable utility functions
+- Scalable folder structure for future expansion
